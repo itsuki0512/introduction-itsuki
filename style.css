@@ -82,9 +82,15 @@ body {
 }
 .profile{
     font-size: 5vw;
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .birth{
     font-size: 4vw;
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .like {
     position: relative;
@@ -111,6 +117,9 @@ body {
 .introduction1{
     margin-left: 3vw;
     margin-top: 10vw;
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .page3{
     display: flex;
@@ -127,16 +136,28 @@ body {
     margin-right: 2vw;
     margin-top: 15vw;
     margin-left: 2vw;
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .circle{
     font-size: 5vw;
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .faculty{
     font-size: 5vw;
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .page4{
     display: flex;
     height: 70vw; /* サイトを縦長にする */
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .like1{
     font-size: 5vw;
@@ -147,6 +168,9 @@ body {
 .SNS{
     text-align: center;
     font-size: 5vw;
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .icon1{
     display: flex;
