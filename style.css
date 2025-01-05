@@ -4,6 +4,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #d3d3d3;
     min-height: 100vh; /* 最低高さを画面全体に設定 */
+    width: 100%;
 }
 
 .page1 {
@@ -14,7 +15,7 @@ body {
 
 .slider {
     right: auto;
-    width: 60%; /* スライダーの幅 */
+    width: 70%; /* スライダーの幅 */
     max-width: 1000px; /* 最大幅 */
     overflow: hidden; /* スライダー外の画像を非表示 */
     border-radius: 10px; /* 角丸 */
@@ -55,6 +56,7 @@ body {
     top: 40vw;
     white-space: nowrap; /* 文字が1行で表示されるように設定 */
     animation: scroll 100s linear infinite; /* アニメーション適用 */
+    width: 100%;
 }
 
 @keyframes scroll {
@@ -83,4 +85,87 @@ body {
 }
 .birth{
     font-size: 4vw;
+}
+.like {
+    position: relative;
+    width: 50vw; /* スライダーの幅 */
+    height: 70vw; /* スライダーの高さ */
+    overflow: hidden; /* コンテナ外の画像を隠す */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.like img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 画像をコンテナにフィットさせる */
+    opacity: 0; /* 初期状態で非表示 */
+    transition: opacity 1s ease-in-out; /* フェードアニメーション */
+}
+
+.like img.active {
+    opacity: 1; /* 表示する画像 */
+}
+
+.introduction1{
+    margin-left: 3vw;
+    margin-top: 10vw;
+}
+.page3{
+    display: flex;
+    height: 58vw;
+    margin-right: 0 auto;
+}
+.zennyasai {
+    display: flex;
+    height: 58vw;
+    margin-left: auto; /* 左側に自動マージンを設定して右寄せ */
+    border-radius: 30%;
+}
+.introduction2{
+    margin-right: 2vw;
+    margin-top: 15vw;
+    margin-left: 2vw;
+}
+.circle{
+    font-size: 5vw;
+}
+.faculty{
+    font-size: 5vw;
+}
+.page4{
+    display: flex;
+    height: 70vw; /* サイトを縦長にする */
+}
+.like1{
+    font-size: 5vw;
+    margin-top: 25vw;
+    margin-right: auto;
+    margin-left: 6vw;
+}
+.SNS{
+    text-align: center;
+    font-size: 5vw;
+}
+.icon{
+    display: flex;
+    height: 11vw; /* サイトを縦長にする */
+    justify-content: center;
+}
+.insta{
+    height: 10vw;
+    margin-bottom: 10px;
+    border-radius: 30%;
+    margin-right: 3%;
+}
+.line{
+    width: 10%;
+    height: 10vw;
+    margin-bottom: 10px;
+    border-radius: 30%;
+    margin-left: 3%;
+}
+section {
+    padding-bottom: 10px; /* 上のセクションの下にスペースを追加 */
 }
