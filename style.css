@@ -1,4 +1,4 @@
-body {
+html,body {
     width: 100%;
     margin: 0;
     font-family: Arial, sans-serif;
@@ -12,6 +12,7 @@ body {
     display: flex;
     font-size: large;
     height: 50vw; /* サイトを縦長にする */
+    overflow-x: hidden;
 }
 
 .slider {
@@ -53,11 +54,12 @@ body {
 .design-name {
     font-size: 10vw;
     color: dimgray;
-    position: absolute;
-    top: 40vw;
+    position: relative;
+    top: -4vw;
     white-space: nowrap; /* 文字が1行で表示されるように設定 */
     animation: scroll 100s linear infinite; /* アニメーション適用 */
     width: 100%;
+    transform: translateX(0);
 }
 
 @keyframes scroll {
