@@ -10,8 +10,9 @@ const finish = () =>{
 
 //ローディングが終わったらfinishという関数をする
 window.addEventListener('load',()=>{
-    setTimeout(finish, 5000);
+    setTimeout(finish, 8000);
 })
+
 const slides = document.querySelector(".slides");
 const slideImages = document.querySelectorAll(".slide");
 let currentIndex = 0; // 現在のスライドインデックス
