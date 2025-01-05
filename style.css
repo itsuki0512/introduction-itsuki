@@ -5,6 +5,7 @@ body {
     background-color: #d3d3d3;
     min-height: 100vh; /* 最低高さを画面全体に設定 */
     width: 100%;
+    overflow-x: hidden;
 }
 
 .page1 {
